@@ -17,7 +17,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -82,3 +81,21 @@ table {
 	filter: invert(100%);
 }
 
+
+.top-wrapper {
+	padding: 3rem;
+	padding-top: 10rem;
+	padding-bottom: 4rem;
+	padding-right: 15rem;
+	font-size: 1.4em;
+	font-weight: 600;
+	line-height: 1.1;
+}
+
+.youknow {
+	padding-top: 1rem;
+}
+
+.background-wrapper {
+	background-color: rgba(154, 154, 154, 0.1);
+}
