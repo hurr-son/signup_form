@@ -43,6 +43,8 @@ table {
 	border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 @font-face {
 	font-family: Norse-Bold;
 	src: url(/fonts/Norse-Bold.otf);
@@ -54,10 +56,15 @@ table {
 
 .card-container {
 	position: relative;
-	
-
 }
 
+img {
+	display: block;
+}
+
+#image-overlay {
+	position: absolute;
+}
 
 .card-body {
 	position: absolute;
@@ -127,7 +134,10 @@ table {
 
 label {
 	padding-bottom: 0.25rem;
-	font-size: smaller;
+	font-size: .7rem;
+	letter-spacing: .1rem;
+	font-weight: 600;
+	color: rgb(79, 79, 79);
 }
 
 input{
@@ -142,10 +152,8 @@ input{
 :focus {
 	outline: none;
 	box-shadow: 0 0 0 1px hsla(220, 100%, 50%, 80%);
+	
 }
-
-
-
 
 .letsdo {
 	font-size: 1.4em;
@@ -155,8 +163,39 @@ input{
 
 .bottom-wrapper {
 	padding-left: 3rem;
-	padding-top: 1.5rem;
-	padding-bottom: 9rem;
+	padding-top: 1.75rem;
+	padding-bottom: 10.6rem;
+}
+
+.bottom-wrapper button {
+	border-width: thin;
+	border-radius: 8px;
+	border-color: rgba(154, 154, 154, 0.4);
+	padding: .8rem 2.75rem;
+	background-color: rgba(221, 187, 126, 0.4);
+	box-shadow: 1px 5px 10px rgba(154, 154, 154, 0.3);
+	font-size: .9rem;
+	font-weight: 900;
 	
 }
 
+.bottom-wrapper p {
+	padding-top: 2rem;
+}
+
+
+.bottom-wrapper a {
+	color: #aa8551;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+
+#pic-link a {
+	color: black;
+}
+
+.right-wrapper {
+	font-family: 'Roboto', sans-serif;
+
+}
