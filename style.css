@@ -102,14 +102,14 @@ table {
 }
 
 
-.middle-wrapper {
+.middle-wrapper-two{
 	padding-left: 3rem;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
 	box-shadow: 1px 5px 5px rgba(154, 154, 154, 0.3);
 }
 
-.form-container-main {
+.main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	justify-items: start;
@@ -128,6 +128,17 @@ label {
 	padding-bottom: 0.25rem;
 }
 
+form {
+	border-radius: 10px;
+}
+
+:focus {
+	outline: none;
+	box-shadow: 0 0 0 1px hsla(220, 100%, 50%, 80%);
+}
+
+
+
 .letsdo {
 	font-size: 1.4em;
 	font-weight: 600;
@@ -140,3 +151,4 @@ label {
 	padding-bottom: 9rem;
 	
 }
+
