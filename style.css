@@ -60,7 +60,7 @@ table {
 
 
 .card-body {
-	position: fixed;
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	width: 599px;
@@ -71,6 +71,7 @@ table {
 
 #pic-link {
 	position: absolute;
+	
 	width: 599px;
 	text-align: center;
 	bottom: 1em;
@@ -98,4 +99,44 @@ table {
 
 .background-wrapper {
 	background-color: rgba(154, 154, 154, 0.1);
+}
+
+
+.middle-wrapper {
+	padding-left: 3rem;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	box-shadow: 1px 5px 5px rgba(154, 154, 154, 0.3);
+}
+
+.form-container-main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: start;
+	grid-row-gap: 1.5rem;
+	
+}
+
+.form-child {
+	display: flex;
+	flex: auto;
+	flex-direction: column;
+}
+
+
+label {
+	padding-bottom: 0.25rem;
+}
+
+.letsdo {
+	font-size: 1.4em;
+	font-weight: 600;
+	padding-bottom: 1rem;
+}
+
+.bottom-wrapper {
+	padding-left: 3rem;
+	padding-top: 1.5rem;
+	padding-bottom: 9rem;
+	
 }
